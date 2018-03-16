@@ -11,7 +11,7 @@
 
 /* ~~this fixed width container surrounds the other divs~~ */
 .container {
-	width: 960px;
+	width: 1080px;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 	background: rgb(138, 0, 0);
 	border: 1px solid #333;
@@ -19,7 +19,7 @@
 
 .content {
 	padding: 20px 0 10px;
-	width: 693px;
+	width: 813px;
 	float: left;
 	background-color: #FFF;
 	border: 1px solid #333;
@@ -37,19 +37,34 @@
 
 .menu-item {
 	font-size: 1.1em;
-	letter-spacing: 1px; 
+	letter-spacing: 1px;
 }
 
 .description {
 	font-size: 0.9em;
 	font-style: italic;
+	padding-right: 100px
+	
+}
+
+.content ul {
+	width: 730px;
+}
+
+.content li {
+	border-bottom: 1px dashed;
+	margin-right: 10px;
+
 }
 
 .price {
-	text-decoration: underline;
-	text-align: right;
 	padding: 5px;
+	text-align: right;
+	position: relative;
+	bottom: 24px;
+	left: 50px;
 }
+
 /* ~~ These are the columns for the layout. ~~
 
 1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
