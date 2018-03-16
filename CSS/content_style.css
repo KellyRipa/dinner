@@ -2,7 +2,7 @@
 
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
-	background: url(../Images/tanbg.jpg);
+	background: rgb(212, 183, 145);
 	height: 10px;
 }
 /* CSS Document */
@@ -18,7 +18,7 @@
 }
 
 .content {
-	padding: 30px 0 10px;
+	padding: 20px 0 10px;
 	width: 693px;
 	float: left;
 	background-color: #FFF;
@@ -31,7 +31,13 @@
 	font-size: 1.7em;
 	font-weight: 700;
 	border-bottom: 5px dotted black;
+	letter-spacing: 2px;
 
+}
+
+.menu-item {
+	font-size: 1.1em;
+	letter-spacing: 1px; 
 }
 
 .description {
@@ -40,7 +46,9 @@
 }
 
 .price {
-	float: right;
+	text-decoration: underline;
+	text-align: right;
+	padding: 5px;
 }
 /* ~~ These are the columns for the layout. ~~
 
